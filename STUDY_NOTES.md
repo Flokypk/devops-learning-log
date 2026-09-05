@@ -248,10 +248,46 @@ After changing project files:
 ## Quick Memory Test
 
 1. Which command shows my current folder?
+pwd
 2. Which command lists my files?
+ls
 3. Which command runs a Python file?
+python3 filename.py
 4. Which command selects changes for a commit?
+git add filename
 5. Which command saves a local checkpoint?
+git commit -m "Describe the change"
 6. Which command uploads commits to GitHub?
+git push
 7. Which SSH key must remain private?
+id_ed25519
 8. What does “working tree clean” mean?
+Your branch is up to date with 'origin/main'.
+
+Everyday Terminal Commands
+Where am I?        → pwd
+List my files?     → ls
+Move into folder?  → cd folder-name
+Create a folder?   → mkdir folder-name
+Open VS Code here? → code .
+Clear the screen?  → clear
+Stop a command?    → Control + C
+
+Git
+Start Git here?       → git init
+Check my changes?     → git status
+Select a file?        → git add filename
+Save a checkpoint?    → git commit -m "Message"
+View commit history?  → git log --oneline
+Upload commits?       → git push
+
+Main memory pattern:
+Select → Save   → Send
+add    → commit → push
+
+Where?  → pwd
+List?   → ls
+Run?    → python3 filename.py
+Select? → git add filename
+Save?   → git commit -m "Message"
+Send?   → git push
