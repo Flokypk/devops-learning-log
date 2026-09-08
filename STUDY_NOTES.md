@@ -310,8 +310,8 @@ minutes_per_day = 80
 days_per_week = 5
 weekly_goal = 600
 
-weekly_minutes =
-Condition is:
-True or False:
-Branch used:
-Minutes still needed:
+weekly_minutes = 400
+Condition is: 400 >= 600
+True or False: False
+Branch used: else
+Minutes still needed: 200
