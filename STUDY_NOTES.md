@@ -291,3 +291,27 @@ Run?    → python3 filename.py
 Select? → git add filename
 Save?   → git commit -m "Message"
 Send?   → git push
+
+## Day 2 - Variables and Conditionals
+
+### In My Own Words
+
+- `weekly_minutes` stores:
+- `weekly_goal` stores:
+- `>=` means:
+- The `if` section runs when:
+- The `else` section runs when:
+- Python indentation is important because:
+- My original comparison was wrong because:
+
+### Practice Trace
+
+minutes_per_day = 80
+days_per_week = 5
+weekly_goal = 600
+
+weekly_minutes =
+Condition is:
+True or False:
+Branch used:
+Minutes still needed:
