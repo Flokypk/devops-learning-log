@@ -297,7 +297,7 @@ Send?   → git push
 ### In My Own Words
 
 - `weekly_minutes` stores: actual result 
-- `weekly_goal` stores: tarhet
+- `weekly_goal` stores: target
 - `>=` means: means greater than or equal
 - The `if` section runs when: true
 - The `else` section runs when: false
