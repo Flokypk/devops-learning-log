@@ -195,13 +195,13 @@ SSH allows my Mac to communicate securely with GitHub.
 
 ### Private Key
 
-`id_ed25519`
+no no no silly
 
 This stays on my Mac. I must never share, upload, or copy its contents.
 
 ### Public Key
 
-`id_ed25519.pub`
+no no silly
 
 The `.pub` ending means public. This is the key that I added to GitHub.
 
