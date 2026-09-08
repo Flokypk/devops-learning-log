@@ -296,13 +296,12 @@ Send?   → git push
 
 ### In My Own Words
 
-- `weekly_minutes` stores:
-- `weekly_goal` stores:
-- `>=` means:
-- The `if` section runs when:
-- The `else` section runs when:
-- Python indentation is important because:
-- My original comparison was wrong because:
+- `weekly_minutes` stores: actual result 
+- `weekly_goal` stores: tarhet
+- `>=` means: means greater than or equal
+- The `if` section runs when: true
+- The `else` section runs when: false
+- Python indentation is important because: belongs under if and else
 
 ### Practice Trace
 
