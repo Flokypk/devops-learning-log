@@ -314,3 +314,27 @@ Condition is: 400 >= 600
 True or False: False
 Branch used: else
 Minutes still needed: 200
+
+## DevOps Disk Usage Checker
+
+### Purpose
+Program asks the user for the current disk usage percentage. If the entered usage is greater than or equal to the warning threshold of 80%, it displays a warning or it reports that disk usage is healthy.
+
+### Variables
+
+- `user_usage`: stores the current percentage entered by the user.
+- `usage_warning`: 80
+
+### Conditional Rule
+
+- Comparison: `user_usage >= usage_warning`
+- `>=` means: greater than or equal to
+- The `if` branch runs when: the condition is true
+- The `else` branch runs when: the condition is false 
+
+### Testing
+
+- Input 79: Disk usage is healthy.
+- Input 80: Warning disk usage is high.
+- Input 95: Warning disk usage is high.
+
