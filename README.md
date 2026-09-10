@@ -6,7 +6,7 @@ This repository documents my progress as I learn the skills needed for cloud inf
 
 - Python fundamentals
 - Terminal commands 
-- Git and GitHub
+- Git and  GitHub
 
 ## Day 1 
 
