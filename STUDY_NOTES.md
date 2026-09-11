@@ -338,3 +338,43 @@ Program asks the user for the current disk usage percentage. If the entered usag
 - Input 80: Warning disk usage is high.
 - Input 95: Warning disk usage is high.
 
+## Day 3 - CPU Temperature Checker and elif
+
+### What I Built
+I built a Python program that asks the user to enter a CPU temperature in degrees Celsius. The program classifies the entered temperature into three levels:
+
+Below 85 degrees: safe
+From 85 through 94 degrees: warning
+95 degrees or higher: critical
+
+This program classifies a temperature entered by the user. It does not automatically read the computer's real CPU temperature.
+
+### What elif Means
+
+elif means "else if." It adds another condition between if and else. Python checks the elif condition only when the earlier if condition is False.
+
+### Why Branch Order Matters
+
+Python checks an if/elif/else structure from top to bottom once it finds the first True condition, it runs that branch and skips the remaining branches.
+
+The critical threshold must be checked before the warning threshold if the warning condition came first, a temperature such as 100 would enter the warning branch, and Python would never reach the critical branch.
+
+### Test Results
+
+- Input 84: Temperature is safe
+- Input 85: Warning Temperature is high!
+- Input 94: Warning Temperature is high!
+- Input 95: Warning Temperature is critical!
+- Input 100: Warning Temperature is critical!
+
+### Mistakes I Made and Fixed
+
+- I initially forgot input(), so the program tried to convert the question itself into an integer instead of collecting an answer from the user.
+
+- I accidentally used cpu_warning in both the if and elif comparisons. This made the elif branch impossible to reach.
+
+- I fixed the branch order by checking cpu_critical first and cpu_warning second.
+
+## Memory Rule
+
+An if/elif/else structure checks from top to bottom and the first True branch wins.

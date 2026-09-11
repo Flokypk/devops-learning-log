@@ -53,3 +53,48 @@ This Python program asks the user for the current disk usage percentage. If the 
 ## Filename
 
 - [`disk_usage_checker.py`](disk_usage_checker.py)
+
+## Day 3 - CPU Temperature Checker
+
+This command-line Python program asks the user to enter a CPU temperature in degrees Celsius it uses ordered conditions to classify the entered value as safe, warning, or critical.
+
+This learning project evaluates a user-provided temperature; it does not read live CPU sensor data.
+
+### Classification Rules
+
+* Below 85°C: Safe
+* From 85°C through 94°C: Warning
+* 95°C or higher: Critical
+
+### Skills Practiced
+
+* Collecting user input with `input()`
+* Converting input into a whole number with `int()`
+* Storing values in variables
+* Comparing numbers with `>=`
+* Creating three branches with `if`, `elif`, and `else`
+* Ordering conditions from the highest threshold to the lowest
+* Testing boundary values
+
+### Test Results
+
+| Input | Branch | Result   |
+| ----: | ------ | -------- |
+|  84°C | `else` | Safe     |
+|  85°C | `elif` | Warning  |
+|  94°C | `elif` | Warning  |
+|  95°C | `if`   | Critical |
+| 100°C | `if`   | Critical |
+
+All five test cases produced the expected results.
+
+### Run the Program
+
+```bash
+python3 cpu_temperature_checker.py
+```
+
+### Project File
+
+* [`cpu_temperature_checker.py`](cpu)
+
